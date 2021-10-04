@@ -1,5 +1,10 @@
-# Analytics test on Power DAH and forecast analytics
-# Loading and building data
+# Author: Eamon Cabral
+# Using LSTM to determine future stock price behaviour
+# Based on tutorial found in Youtube
+# Use of LSTM is encouraged as short term memory learning is expected
+# to be impacted by long term behaviour of stock. Similar behaviour is found in
+# traders while analyzing algos like MACD - where the cross of short term trands
+# with long trend define the start of a new trend (flipping of the market).
 
 import pandas as pd
 import numpy as np
